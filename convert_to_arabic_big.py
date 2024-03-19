@@ -24,9 +24,9 @@ def save_to_excel(start_num, end_num, folder_path):
     wb.save(filename=excel_filename)
     print(f"Exported to {excel_filename} successfully!")
 
-folder_path = 'D:\\numbers exports\\'
-range_start = 1000000
-range_end = 10000000
+folder_path = 'D:\\numbers_exports\\Sheets'
+range_start = 23657000000
+range_end  = 50000000000
 step = 1000000
 
 # Calculate total iterations for progress tracking
