@@ -3,7 +3,7 @@ from bidi.algorithm import get_display
 import arabic_reshaper
 
 # Replace '12345' with the number you want to convert
-number_to_convert = 12345
+number_to_convert = 77777777456200126
 
 # Convert the number to words in Arabic
 words_in_arabic = num2words(number_to_convert, lang='ar')
